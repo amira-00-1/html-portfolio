@@ -1,0 +1,25 @@
+ol{
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    line-height: 1.5;
+}
+
+*{color: antiquewhite;}
+
+body {background-color: black;
+justify-content: center;
+align-items: center;
+text-align: center;
+font-family: Arial, sans-serif;
+height: 100vh;
+list-style-position:inside;
+}
+
+h1 {font-size: 50px;}
+h2 {font-size: 30px;}
+p {font-size: 20px;}
+nav {margin-bottom: 20px;}
+a {color: lightblue; text-decoration: none; margin: 0 15px;}
+a:hover {text-decoration: underline;}
