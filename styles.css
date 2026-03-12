@@ -5,19 +5,39 @@ ol{
     padding-left: 20px;
     line-height: 1.5;
 }
+.navbar{
+background-color: black !important;
+}
+
+.navbar a{
+color: white !important;
+}
+
+.dropdown-menu{
+background-color: white;
+}
+
+.dropdown-item{
+color: black !important;
+}
+
+.dropdown-item:hover{
+background-color: #f1f1f1;
+}
     
 .navigation {
     margin-bottom: 20px;
-    display: flex;
+    display: grid;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
-    list-style: horizontal;
+    text-align: left
+    
 }
 
 .introduction {
     font-size: 18px;
-    text-align: left;
+    text-align: left !important;
+    
     border: 10px solid maroon;
     border-radius: 10px;
     width: 1820px;
@@ -25,42 +45,44 @@ ol{
     padding: 10px;
     margin-left: 15px; 
     margin-bottom: auto;
-    
+    color: antiquewhite;
 }
 
-*{color: antiquewhite;}
-body {background-color: black;
+body {color: antiquewhite;
+    background-color: black;
 justify-content: center;
 align-items: center;
 text-align: center;
 font-family: Arial, sans-serif;
 height: 100vh;
 list-style-position:inside;
+
 }
 
 .whoami {font-size: 25px;
 gap: 10px;
-display: inline-flex;
+display: grid;
  font-style: italic;
- border: 80px solid maroon;
+ border: 20px solid maroon;
  border-radius: 10px;
-width: 500;
-height: 500;
+ justify-content:flex-start;
+width: 500px;
+ height: auto;
 padding: 10px;
 margin: 15px;
 text-align: left;
 }
 .profession {font-size: 20px;
-    display: inline-flex;
+    display: grid;
 font-weight: bold;
 font-style: italic;
 text-align: left;
-border: 80px solid maroon;
+border: 20px solid maroon;
  border-radius: 10px;
-width: 500;
-height: 500;
+width: 500px;
+height: auto;
 padding: 10px;
-justify-content:;
+margin: 15px;
 }
 
 h1 {font-size: 50px;
@@ -69,4 +91,3 @@ h2 {font-size: 30px;}
 p {font-size: 20px;}
 nav {margin-bottom: 20px;}
 a {color: lightblue; text-decoration: none; margin: 0 15px;}
-a:hover {text-decoration: underline;}
